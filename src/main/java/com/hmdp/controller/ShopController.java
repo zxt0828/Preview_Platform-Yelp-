@@ -13,11 +13,9 @@ import javax.annotation.Resource;
 
 /**
  * <p>
- * 前端控制器
+ * front end controller
  * </p>
  *
- * @author 虎哥
- * @since 2021-12-22
  */
 @RestController
 @RequestMapping("/shop")
@@ -27,9 +25,9 @@ public class ShopController {
     public IShopService shopService;
 
     /**
-     * 根据id查询商铺信息
-     * @param id 商铺id
-     * @return 商铺详情数据
+     * query shopStore information by id
+     * @param id shop store id
+     * @return information of shop store商铺详情数据
      */
     @GetMapping("/{id}")
     public Result queryShopById(@PathVariable("id") Long id) {

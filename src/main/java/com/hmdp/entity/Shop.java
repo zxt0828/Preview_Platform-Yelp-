@@ -16,8 +16,6 @@ import java.time.LocalDateTime;
  * 
  * </p>
  *
- * @author 虎哥
- * @since 2021-12-22
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -34,12 +32,12 @@ public class Shop implements Serializable {
     private Long id;
 
     /**
-     * 商铺名称
+     * shop store name
      */
     private String name;
 
     /**
-     * 商铺类型的id
+     * shop store id
      */
     private Long typeId;
 
