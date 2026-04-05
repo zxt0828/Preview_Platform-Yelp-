@@ -4,7 +4,6 @@ import cn.hutool.core.lang.UUID;
 import java.util.Collections;
 import java.util.concurrent.TimeUnit;
 import org.springframework.core.io.ClassPathResource;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.script.DefaultRedisScript;
 
